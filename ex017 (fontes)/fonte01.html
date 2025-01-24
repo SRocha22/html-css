@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            font-size: 1em;
+                /*
+                    Medidas absolutas
+                    cm, mm, in, px, pt, pc
+
+                    Medidas Relativas
+                    em - altura M
+                    ex - altura x
+                    rem - relativo ao root (fonte do body)
+                    vw - viewport (% relativo ao tamanho da tela)
+
+                    Recomendado px e em
+                */
+        }
+        h1{
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+                /*
+                    shorthand font
+                    font-style > font-weught > font size > font family
+                    Substituir por: font: italic bolder 3em 'Workd Sans, sans-serif;'
+                */
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body">
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nisi optio beatae explicabo molestias nihil velit expedita sunt suscipit, veniam odio libero numquam quia fugiat minima est, dolorum tempore vel. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nisi optio beatae explicabo molestias nihil velit expedita sunt suscipit, veniam odio libero numquam quia fugiat minima est, dolorum tempore vel.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos perferendis excepturi dicta ratione enim! Non at expedita eum maiores aliquam nisi neque hic vitae quod repudiandae quibusdam, atque, sapiente doloribus!</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis exercitationem, maiores nulla tempore perspiciatis ipsa facilis dignissimos cupiditate veniam rem nemo distinctio obcaecati earum facere necessitatibus aut tempora eius? Repellat.</p>
+</body>
+</html>
