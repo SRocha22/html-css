@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid odit sequi minus pariatur. Debitis laboriosam amet, rerum excepturi voluptatem quod labore cum? Sapiente quam corrupti sit, deserunt facere debitis ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sapiente ea quisquam ab? In perspiciatis voluptas, at unde illo doloribus, asperiores, perferendis animi consectetur et vero. Facilis hic nesciunt doloribus!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates amet sunt veritatis quam dolore nostrum fuga pariatur laboriosam optio, reprehenderit ex eveniet deleniti adipisci vel perspiciatis voluptatem ullam ducimus eligendi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi suscipit maxime fugiat distinctio deleniti excepturi reiciendis aspernatur aut molestias placeat eligendi nobis modi necessitatibus aliquid quo soluta perferendis, eveniet provident!</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore quas quisquam dignissimos maiores placeat commodi. Aspernatur, cum iure esse, delectus, exercitationem consectetur commodi voluptate quo nulla dolorem culpa. Aliquid, saepe.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
